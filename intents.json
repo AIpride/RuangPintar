@@ -1,0 +1,305 @@
+{"intents": [
+        {"tag": "Salam",
+         "patterns": ["Haii", "Bagaimana kabar mu", "Apakah ada orang disana?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hallo, terima kasih", "Senang bertemu dengan mu lagi"],
+         "context": [""]
+        },
+        {"tag": "Selamat Tinggal",
+         "patterns": ["Bye", "Sampai ketemu lagi"],
+         "responses": ["Sampai Jumpa!", "Selamat bersenang-senang"],
+         "context": [""]
+        },
+        {"tag": "terima kasih",
+         "patterns": ["Terima kasih", "Itu membantu"],
+         "responses": ["Saya senang bisa membantu"],
+         "context": [""]
+        },
+        {"tag": "math tambah",
+                "patterns": ["1 + 4 ="],
+                 "responses": ["Loading hospital details"],
+                 "context": ["1 + 4"]
+            },
+            {"tag": "Mayth_invers",
+             "patterns": ["Tentukan fungsi invers dari f(x) = 2x² + 5!"],
+             "responses": ["f-1(x) = √[(x-5)/2]"],
+             "context": [""]
+            },
+            {"tag": "math invers",
+                "patterns": ["Tentukan fungsi invers dari g(x) = (2x – 1)/6"],
+                 "responses": ["g-1(x) = (6x+1)/2"],
+                 "context": ["1 + 4"]
+            },
+            {"tag": "Mayth_invers",
+             "patterns": ["Tentukan fungsi invers dari h(x) = ³√x+2"],
+             "responses": ["h-1(x) = (x+2)³"],
+             "context": [""]
+            },
+            {"tag": "Ruang Lingkup Biologi 1",
+                "patterns": ["Apa saja karakteristik Dasar pada makhluk Hidup?"],
+                "responses": ["1.Disusun oleh sel. 2. Mengalami pertumbuhan dan perkembangan, 3. Melakukan proses metabolisme."],
+                "context": [""]
+            },
+            {"tag": "Ruang Lingkup Biologi 2",
+                "patterns": ["Sebutkan tingkatan pada struktur organisasi kehidupan?"],
+                "responses": [" struktu organisasi kehidupan dalam berbagai tingkat dapat dijelaskan pada Molekul,sel,jaringan,organ,sistem Organ,populasi,komunitas,ekosistem,dan Bioma"],
+                "context": [""]
+            },
+            {"tag": "Ruang Lingkup Biologi 3",
+                "patterns": ["Sebutkan klarifikasi makhluk hidup ke dalam enam kingdom?"],
+                "responses": ["1.Archaebacteria. 2.Eubacteria(Bakteri). 3.Protista 4.Fungi 5.Plantea 6.Animalia"],
+                "context": [""]
+            },
+            {"tag": "Materi lengkap Ruang Lingkup 4",
+                "patterns": ["Materi Pelajaran Tentang Ruang Lingkup?"],
+                "responses": ["https://news.clearnotebooks.com/id/keren-rangkuman-biologi-kelas-10-semester-2/"],
+                "context": [""]
+            },
+            {"tag":  "Virus 5",
+                "patterns": ["Siapa penemu virus?"],
+                "responses": ["Wendell Stanley yang mengkristalkan partikel mikroskopik yang menyerang tanaman tembakau yang kemudian diberi nama Tobacco Mosaic Virus(TMV)"],
+                "context": [""]
+            },
+            {"tag": "Virus 6",
+                "patterns": ["Sebutkan ciri-Ciri Virus?"],
+                "responses": ["1.Bersifat aseluler, 2.Berukuran 20-300 milimikron, 3.Memiliki salah satu macam asam nukleat RNA atau DNA,4. Berupa Kristal, 5.Bentuknya beragam, 6.Tersusun atas asam nukleat "],
+                "context": [""]
+            },
+            {"tag": "Virus 7",
+                "patterns": ["Apa saja struktur tubuh virus?"],
+                "responses": ["Struktur virus mempunyai selubung lipid,RNA,Enzim reverse transcriptase, dan selubang protein"],
+                "context": [""]
+            },
+            {"tag": "Virus 8",
+                "patterns": ["Apa yang dimaksud dengan virus pemakan bakteri?"],
+                "responses": ["Bakteriofag(fag) adalah virus pemakan bakteri yang ditemukan oleh frederick twort dan felix d'Herelle. Bakteriofag menyebabkan sel bakteri pecah."],
+                "context": [""]
+            },
+            {"tag": "Virus 9",
+                "patterns": ["Sebutkan 2 perkembangan pada virus?"],
+                "responses": ["ada 2 cara virus menginfeksi bakteri,yaitu secara litik dan lisogenik"],
+                "context": [""]
+            },
+            {"tag": "Virus 10 ",
+                "patterns": ["Materi Lengkap Tentang Virus?"],
+                "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/"],
+                "context": [""]
+            },
+            {"tag": "Virus 11",
+                "patterns": ["Materi Ringkasan pada virus?"],
+                "responses": ["https://drive.google.com/file/d/1fVO-02vjVqiS4oFAHYJV06ilQxs5zERJ/view"],
+                "context": [""]
+            },
+            {"tag": "Archaebacteria dan Eubacteria 12",
+                "patterns": ["Sebutkan cara reproduksi pada Archaebacteria?"],
+                "responses": ["Pembelahan biner,pembelahan berganda,pembentukan tunas,dan fragmentasi.Archaebacteria hidup pada habitat ekstrim,seperti sumbar air panas dan telaga garam."],
+                "context": [""]
+            },
+            {"tag": "Archaebacteria dan Eubacteria 13",
+                "patterns": ["Sebutkan 3 bagian pada Archaebacteria?"],
+                "responses": ["1.Metanogen, 2.Halofix Ekstrim, 3.Termofil Exstrim"],
+                "context": [""]
+            },
+            {"tag": "Archaebacteria dan Eubacteria 14",
+                "patterns": ["Apa saja ciri-ciri pada Eubacteria(Bakteri)?"],
+                "responses": ["1.Dinding sel tersusun atas mukopolisakarida dan peptidoglikan, 2.Sel bakteri dapat mensekresikan lendir ke permukaan dindingselnya, 3.Membran sitoplasma meliputi 8-10%, 4.Sitoplasma dikelilingi oleh membran sitoplasma, 5.Membentuk endospora untuk melindungi diri dari panas dan gangguan alam, 6.Ada yang bergerak dengan flagela dan ada yang tidak. "],
+                "context": [""]
+            },
+            {"tag": "Archaebacteria dan Eubacteria 15",
+                "patterns": ["Secara Umum bakteri bereproduksi secara?"],
+                "responses": ["Bakteri bereproduksi secara aseksual dengan pembelahan biner"],
+                "context": [""]
+            },
+            {"tag": "Archaebacteria dan Eubacteria 16",
+                "patterns": ["Materi Ringkasan pada Archaebacteria dan Eubacteria?"],
+                "responses": ["https://drive.google.com/file/d/1uwY-GxJUdjDivh6A0rNcJBlV3oecVSrX/view"],
+                "context": [""]
+            },
+            {"tag": "Protista 17",
+                "patterns": ["Secara Umum ciri-ciri protista?"],
+                "responses": [" 1.Bersifat eukariotik,yaitu diselubungi oleh membran inti serta organel-organelnya dikelilingi membran. 2.Respirasi secara aerobotik. 3.Sebagian besar bersifat uniseluler. 4.Ada yang bereproduksi secara aseksual dan ada yang secara seksual. 5.Ada yang hidup bebas dan ada yang bersimbiosis. 6.Kebanyakan hidup diperairan."],
+                "context": [""]
+            },
+            {"tag": "Protista 18",
+                "patterns": ["Apa saja bagian dan ciri-ciri umum kingdom protista mirip jamur?"],
+                "responses": ["1.Myxomycota(jamur lendir plasmodial,yang memiliki ciri-ciri:hanya memiliki beberapa sifat yang dimiliki jamur,struktur myxomycota disebut plasmodium,dan dapat mencerna mikroorganisme serta partikel bahan organik yang membusuk didalam selnya. 2.Oomycota(Jamur air) adalah memiliki ciri-ciri memiliki banyak kemiripan dengan jamur,bersifat heterotrofik,baik secara parasit maupun saprofit,dan memiliki dinding sel yang mengandung selulosa dan tidak mempunyai septa."],
+                "context": [""]
+            },
+            {"tag": " Protista 19",
+                "patterns": ["Secara Umum Alga bereproduksi secara?"],
+                "responses": ["Alga bereproduksi secara seksual dan aseksual "],
+                "context": [""]
+            },
+            {"tag": " Protista 20",
+                "patterns": ["Materi lengkap tentang protista?"],
+                "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                "context": [""]
+            },
+            {"tag": "Jamur 21",
+                "patterns": ["Jelaskan ciri-ciri umum pada jamur ?"],
+                "responses": ["1.Merupakan organisme eukariotik yang menghasilkan spora,dindingselnya tidak mengandung selulosa,melainkan karbohidrat kompleks,dan tidak memiliki flagela dalam daur hidupnya.  "],
+                "context": [""]
+            },
+            {"tag": " Jamur 22",
+                "patterns": ["Sebutkan apa saja klarifikasi pada jamur?"],
+                "responses": ["1.Zygomycota. 2.Ascomycota. 3.Basydiomycota. 4.Deuteromycota"],
+                "context": [""]
+            },
+            {"tag": " Jamur 23",
+                "patterns": ["Apa aja peran Zygomycota?"],
+                "responses": ["Peran Zygomycota terbagi atas 2 yang 1.Rhizopus oryzae yang berperan untuk membuat tempe dan yang ke 2.Mucor javanicus berperan untuk membuat tape ketan. "],
+                "context": [""]
+            },
+            {"tag": " Jamur 24",
+                "patterns": ["Sebutkan apa saja ciri-ciri Deuteromycota?"],
+                "responses": ["1.Disebut fungi imperfecti atau jamur tidak sempurna, 2.Belum diketahui reproduksi seksual selama siklus hidupnya, 3.Hanya hidup di darat. "],
+                "context": [""]
+            },
+            {"tag": " Keanekaragaman Hayati 25",
+                "patterns": ["Apa pegertian keanekaragamn hayati adalah?"],
+                "responses": ["Keanekaragam hayati adalah keanekaragaman makhluk hidup yang memperlihatkan seluruh variasi gen,spesies dan ekosistem di suatu daerah. "],
+                "context": [""]
+            },
+            {"tag": " Keanekaragaman Hayati 26",
+                "patterns": ["Sebutkan apa saja tingkatan pada keanekaragaman hayati?"],
+                "responses": ["Tingkat keanekaraman hayati ada 3 macam yaitu:1.keanekaragaman tingkat gen,2.Tingkat keanekaragaman jenis spesies, 3.Keanekaraman tingkat ekosistem. "],
+                "context": [""]
+            },
+            {"tag": " Keanekaragaman Hayati 27",
+                "patterns": ["Apa saja faktor-faktor yang mempengaruhi keanekaragaman tingkat ekosistem?"],
+                "responses": [" iklim,air,tanah,udara,cahaya,kelembapan,dan suhu."],
+                "context": [""]
+            },
+            {"tag": " Keanekaragaman Hayati 28",
+                "patterns": ["Tujuan pada pengelompokkan pada keanekaragaman hayati?"],
+                "responses": ["Tujuan pada pada pengelompokkan keanekaragaman hayati bertujuan untuk memberikan penjelasan mengenai ciri-ciri makhluk hidup agar setiap jenis dapat dikenali dengan mudah,Mengidentifikasi setiap ciri-ciri makhluk hidup agar dapat dikelompokkan sesuai dengan kategorinya,memberikan pengetahuan tentang hubungan kekerabatan antar makhluk hidup di dunia,dan mengetahui perkembangan evolusi setipa makhluk hidup berdasarkan hubungan kekerabatannya. "],
+                "context": [""]
+            },
+            {"tag": " Keanekaragaman Hayati 29",
+                "patterns": ["Materi Rangkuman lengkap pada keanekaraman Hayati?"],
+                "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                "context": [""]
+            },
+            {"tag": " Tumbuhan 30",
+                "patterns": ["Apa pengertian dari tumbuhan?"],
+                "responses": ["Tumbuhan adalah organisme eukariotik dari kerajaan biologis plantea yang bercirikan fotosintesis dan memiliki dinding sel yang kaku. "],
+                "context": [""]
+            },
+            {"tag": " Tumbuhan 31",
+                "patterns": ["Sebutkan ciri-ciri tumbuhan?"],
+                "responses": ["1.Disusun dari sel eukariotik,2.Organisme yang memiliki banyak sel atau multi seluler,3.Memilki dinding sel dari selulosa,3.Memilki klorofil a dan b untuk fotosintesis,4.Menyimpan cadangan makanan berbentuk amilum atau zat tepung,dan 5.Sifatnya autotrof karena bisa membuat makanan sendiri. "],
+                "context": [""]
+            },
+            {"tag": " Tumbuhan 31",
+                "patterns": [" Struktur tumbuhan ada berapa?"],
+                "responses": ["Struktur tumbuhan terdiri dari beberapa bagian yang berbeda.Tiga bagian utama tumbuhan meliput akar,daun dan batang.Dimana setiap bagian memilki serangkaian tugas dan fungsinya untuk menjaga kesehatan tanaman."],
+                "context": [""]
+            },
+            {"tag": " Tumbuhan 32",
+                "patterns": ["Sebutkan apa saja pengklasifikasikan pada tumbuhan?"],
+                "responses": ["1.Lumut(Bryophytes, 2.Tumbuhan Paku, 3.Tumbuhan Biji. "],
+                "context": [""]
+            },
+            {"tag": " Hewan 33",
+                "patterns": ["Berdasarkan simetri tubuh hewan terbagi atas 2,maka jelaskan ke 2 simetris tersebut?"],
+                "responses": ["Berdasarkan simetris tubuh hewan terbagi atas 2 yaitu 1.simetri radial yang tersusun atas vental,Dorsal,dan Bidang simetri. dan simetri bilateral "],
+                "context": [""]
+            },
+            {"tag": " Hewan 34",
+                "patterns": ["Jelaskan dasar-dasar pengelompokan dunia hewan?"],
+                "responses": ["Pengelompokkan hewan terbesar adalah berdasarkan ada/tidaknya tulang belakang,yaitu vertebrata dan avertebrata.Lalu ada juga pengelompokkannya pada 1. Porifera 2.Coelenterata adalah filum ctenophora dan chidaria dikelompokkan sebagai coelenterata. 3.Plathyhelminthes  "],
+                "context": [""]
+            },
+            {"tag": " Hewan 35",
+                "patterns": ["Jelaskan tujuh peranan pada hewan?"],
+                "responses": ["1.Peranan filum porifera contohnya pada spon,2.Peranan filum cnidaria contohnya pada ubur-ubur,dan anemon laut, 3.Peranan filum annelida contohnya pada cacing, 4.Peranan filum moluska, 5.Peranan filum Echinodermata contohnya pada landak laut, 6.Peranan filum Arthropoda contohnya kupu-kupu dan lalat buah, 7.Peranan filum chordata contohnya pada ayam,kambing,domba,dan hiu termasuk ke dalam filum chordata."],
+                "context": [""]
+            },
+            {"tag": " Ekosistem 36",
+                "patterns": ["Apa pengertian Ekosistem?"], 
+                "responses": ["Ekosistem adalah suatu sistem lingkungan yang terbentuk oleh hubungan timbal balik antara makhluk hidup dengan lingkungannya. "],
+                "context": [""]
+            },
+            {"tag": " Ekosistem 37",
+                "patterns": ["Ilmu yang mempelajari ekosistem adalah?"],
+                "responses": ["Ekologi.Dimana Ekologi berasal dari kata oikos(rumah atau tempat hidup) dan logos (ilmu)"],
+                "context": [""]
+            },
+            {"tag": " Ekosistem 38",
+                "patterns": ["Sebutkan Simbiosis anatar-komponen ekosistem?"],
+                "responses": ["1.Simbiosis mutualisme, 2.Simbiosis Komensalisme, 3.Simbiosis parasitisme"],
+                "context": [""]
+            },
+            {"tag": " Ekosistem 39",
+                "patterns": ["Sebutkan 10 ekosistem buatan yang ada disekitar ?"],
+                "responses": [" 1.Waduk atau bandungan, 2.Tambak, 3.Sawah, 4.Tanam kota, 5.Saluran irigasi, 6.perkebunan, 7.kolam ikan, 8.pemukiman atau perumahan, 9.kebun binatang, 10.peternakan."],
+                "context": [""]
+            },
+            {"tag": " Ekosistem 40",
+                "patterns": ["Materi Lengkap pada materi biologi kelas 10?"],
+                "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                "context": [""]
+            },
+            {"tag": " Kimia 1 : sistim periodik unsur dan struktur atom 1",
+                "patterns": ["Diketahui nomor atom unsur A adalah 20. Bagaimanakah konfigurasi elektron ion A2+ tersebut ?" , "bagaimana konfigurasi elektron"],
+                "responses": ["1s2 2s2 2p6 3s2 3p6" , "https://www.ruangguru.com/blog/konfigurasi-elektron-dan-diagram-orbital"],
+                "context": [""]
+            },
+            {"tag": " Kimia 1: sistim periodik unsur dan struktur atom 2",
+                "patterns": ["Jika diketahui ion X2+ memiliki 10 elektron dan 12 neutron. Maka berapakah nomor massa atom X tersebut?"],
+                "responses": ["24" , "https://www.ruangguru.com/blog/konfigurasi-elektron-dan-diagram-orbital"],
+                "context": [""]
+            },
+            {"tag": " Kimia 1: sistim periodik unsur dan struktur atom 3",
+                "patterns": ["Jika diketahui unsur X3+ memiliki 28 elektron , maka dimanakah letak unsur X pada tabel periodik?"],
+                "responses": ["Golongan IIIA,periode 4" , "https://www.ruangguru.com/blog/konfigurasi-elektron-dan-diagram-orbital"],
+                "context": [""]
+            },
+            {"tag": " Kimia 1: sistim periodik unsur dan struktur atom 4",
+                "patterns": ["Jika diketahui ion A- memiliki 18 elektron dan 18 neutron. Maka berapakah nomor massa atom A tersebut?"],
+                "responses": ["35  pembahasannya Elektron A = Elektron A- - Muatan Nomor Massa A = Proton A + Neutron Elektron A = 18 - 1 Nomor Massa A = 17 + 18 Elektron A = Proton A = 17 Nomor Massa A = 35" , "https://www.ruangguru.com/blog/konfigurasi-elektron-dan-diagram-orbital"],
+                "context": [""]
+            },
+            {"tag": " Kimia 2: ikatan kimia",
+                "patterns": ["apa yang dimaksud dengan gaya van der Waals?"],
+                "responses": ["gaya antar molekul yang terjadi pada antar molekkul kovalen yang bekerja untuk mengikat molekul-molekul tersebut dalam satu kesatuan"],
+                "context": [""]
+            },
+            {"tag": " Kimia 2: ikatan kimia 2",
+                "patterns": ["apa yang dimaksud dengan gaya van der Waals?"],
+                "responses": ["gaya antar molekul yang terjadi pada antar molekkul kovalen yang bekerja untuk mengikat molekul-molekul tersebut dalam satu kesatuan"],
+                "context": [""]
+            },
+            {"tag": " Kimia 2: ikatan kimia 3",
+                "patterns": ["Nomor atom unsur P, Q, R dan S adalah 6, 9, 11, dan 18. Pasangan unsur-unsur yang diharapkan dapat membentuk ikatan ion adalah"],
+                "responses": ["P dan Q"],
+                "context": [""]
+            },
+            {"tag": " Kimia 2: ikatan kimia 4",
+                "patterns": ["Ikatan dalam molekul SiO2"],
+                "responses": ["Konfigurasi elektron Si : 2  8  4, elektron valensi = 4 Konfigurasi elektron O : 2  6, elektron valensi = 8"],
+                "context": [""]
+            },
+            {"tag": " Kimia 3: tata nama senyawa ",
+                "patterns": ["Rumus kimia dari magnesium nitrida adalah"],
+                "responses": ["Atom logam : Mg Atom Non logam : N maka MgN"],
+                "context": [""]
+            },
+            {"tag": " Kimia 3: tata nama senyawa 2",
+                "patterns": ["Nama senyawa As2O3 yang tepat adalah"],
+                "responses": ["Atom logam 1 = As = Arsen, jumlah = 2 (di) Atom logam 2 = O = Oksigen, jumlah = 3 (tri) Nama senyawa : Diarsen Trioksida"],
+                "context": [""]
+            },
+            {"tag": " Kimia 3: tata nama senyawa 3",
+                "patterns": ["Rumus kimia senyawa difosforus pentaoksida adalah"],
+                "responses": ["Nama atom logam 1 = fosfor = P , jumlah = di (2) Nama atom logam 2 = oksigen = O , jumlah = penta (5) Rumus kimia senyawa : P2O5"],
+                "context": [""]
+            },
+            {"tag": " Kimia 3: tata nama senyawa 4",
+                "patterns": ["Rumus kimia dari Timah(IV) klorida adalah"],
+                "responses": ["Timah memiliki bilangan oksidasi +4 = Sn+4 Klorida memiliki bilangan oksidasi -1 = Cl-1 Rumus Kimia : SnCl4"],
+                "context": [""]
+            },
+            
+   ]
+}
+      
