@@ -1,0 +1,536 @@
+{"intents": [
+            {"tag": "math tambah",
+            "patterns": ["1 + 4 ="],
+             "responses": ["5"],
+             "context": ["1 + 4"]
+        },
+        {"tag": "Mayth_invers",
+         "patterns": ["Tentukan fungsi invers dari f(x) = 2x² + 5!"],
+         "responses": ["f-1(x) = √[(x-5)/2]"],
+         "context": [""]
+        },
+        {"tag": "math invers",
+            "patterns": ["Tentukan fungsi invers dari g(x) = (2x – 1)/6!"],
+             "responses": ["g-1(x) = (6x+1)/2"],
+             "context": ["1 + 4"]
+        },
+        {"tag": "Mayth_invers",
+         "patterns": ["Tentukan fungsi invers dari h(x) = ³√x+2!"],
+         "responses": ["h-1(x) = (x+2)³"],
+         "context": [""]
+        },
+        {"tag": "aljabar",
+            "patterns": ["Berapa hasil pemfaktoran dari bilangan berikut ini 16x² − 9y² ?"],
+             "responses": [" ( 4x + 3y ) ( 4x - 3y )"],
+             "context": [""]
+        },
+        {"tag": "aljabar1",
+         "patterns": ["Tuliskan bentuk sederhana dari bilangan 2x²- 3x - 9 / 4x² - 9 ! "],
+         "responses": [" x -3 / 2x - 3."],
+         "context": [""]
+        },
+        {"tag": "aljabar2",
+            "patterns": ["Berapakah hasil dari bilangan berikut ini 2 ( 4x - 5 ) - 5x + 7"],
+             "responses": ["3x - 3."],
+             "context": [""]
+        },
+        {"tag": "aljabar3",
+         "patterns": ["Berapakah hasil dari bilangan berikut ini ( 2a - b ) ( 2a + b ) ?"],
+         "responses": ["4a2 - b2"],
+         "context": ["https://rumus.co.id/contoh-soal-aljabar/"]
+        },
+        {"tag": "Pertidaksamaan",
+            "patterns": ["Jika 2<x<4, 3<y<5 dan w = x + y, maka nilai w berada antara nilai"],
+             "responses": [" 5 dan 9"],
+             "context": [""]
+        },
+        {"tag": "Pertidaksamaan1",
+         "patterns": ["Himpunan penyelesaian x - √6 - x ≥ 0 adalah "],
+         "responses": ["{x|2≤x≤6}"],
+         "context": [""]
+        },
+        {"tag": "Pertidaksamaan2",
+            "patterns": ["Jika himpunan penyelesaian |2x-a|<5 adalah {x|-1 <x<4}, maka nilai a adalah"],
+             "responses": ["3"],
+             "context": [""]
+        },
+        {"tag": "Pertidaksamaan3",
+         "patterns": ["Sebuah partikel bergerak sepanjang sumbu t dan posisi partikel di setiap saat adalah s(t)=2t3−24t2+90t+7, t≥0. Kecepatan partikel ini positif bilamana t memenuhi..."],
+         "responses": [" 0≤t<3 atau t>5"],
+         "context": ["https://www.defantri.com/2013/02/matematika-dasar-pertidaksamaan.html"]
+        },
+        {"tag": "Matematika Dasar Suku Banyak (Polinomial)",
+            "patterns": ["Suku banyak f(x) dibagi (x+1) sisanya 10 dan jika dibagi (2x−3) sisanya 5. Jika suku banyak f(x) dibagi (2x²−x−3), sisanya adalah."],
+             "responses": [" (A) −2x+8"],
+             "context": [""]
+        },
+        {"tag": "Matematika Dasar Suku Banyak (Polinomial)1",
+         "patterns": ["Hasil bagi dan sisa suku banyak 3x³+10x²−8x+3 dibagi x²+3x−1, berturut-turut adalah "],
+         "responses": ["3x+1 dan −8x+4"],
+         "context": [""]
+        },
+        {"tag": "Matematika Dasar Suku Banyak (Polinomial)2",
+            "patterns": ["Diketahui suku banyak f(x)=ax³+(a+b)x²−bx+a+b. Jika x²+1 adalah faktor dari f(x) dan f(a)=2, maka nilai a+b=⋯"],
+             "responses": ["4"],
+             "context": [""]
+        },
+        {"tag": "Matematika Dasar Suku Banyak (Polinomial)3",
+         "patterns": ["Jika p(x)=ax³+bx²+2x−3 habis dibagi x²+1, maka nilai 3a−b adalah"],
+         "responses": [" 9"],
+         "context": ["https://www.defantri.com/2017/03/matematika-dasar-polinomial.html"]
+        },
+        {"tag": "Matematika Dasar Pola Bilangan",
+            "patterns": ["Suku ke-20 dari barisan 1,1,1,2,1,3,1,4,1,⋯ adalah..."],
+            "responses": ["10"],
+            "context": [""]
+        },
+        {"tag": "Matematika Dasar Pola Bilangan1",
+            "patterns": ["Pola bilangan untuk barisan 44,41,38,35,32,⋯ memenuhi rumus..."],
+             "responses": ["Un=47-3n"],
+             "context": [""]
+        },
+        {"tag": "Matematika Dasar Pola Bilangan2",
+         "patterns": ["Semua bilangan positip ganjil dikelompokkan sebagai berikut: (1)(1), (3,5,7)(3,5,7), (9,11,13,15,17)(9,11,13,15,17), (19,21,23,25,27,29,31)(19,21,23,25,27,29,31),... Selisih bilangan terbesar dan terkecil dalam kelompok ke sepuluh adalah... "],
+         "responses": ["884"],
+         "context": [""]
+        },
+        {"tag": "Matematika Dasar Pola Bilangan3",
+            "patterns": ["x, 27, 9, 45, 27, 63, y  Nilai yang tepat menggantikan x dan y adalah..."],
+             "responses": ["−9 dan 45"],
+             "context": [""]
+        },
+        {"tag": "Matematika Dasar Pola Bilangan4",
+         "patterns": ["1, 2, −1, −1, −2, ⋯, −5, −10, −13"],
+         "responses": [" −5"],
+         "context": ["https://www.defantri.com/2021/04/pola-bilangan.html"]
+        },
+            {"tag": "Vektor",
+                "patterns": ["Pada perlombaan tarik tambang, kelompok A menarik ke arah timur dengan gaya 700 N. Kelompok B menarik ke barat dengan gaya 665 N. Kelompok yang memenangi perlombaan adalah kelompok . . . ."],
+                "responses": ["35 N."],
+                "context": [""]
+            },
+            {"tag": "Vektor1",
+                "patterns": ["Diketahui bahwa ukuran vektor A = 5 unit dan ukuran vektor B = 6 unit. Kedua vektor membentuk sudut 60°. Ukuran skalar antara dua vektor adalah"],
+                "responses": ["15 unit "],
+                "context": [""]
+            },
+            {"tag": "Vektor2",
+                "patterns": ["Dua buah gaya masing-masing 10 N dan15 N membentuk sudut 60°. Besar resultan kedua gaya tersebut adalah . ."],
+                "responses": ["5 √19 N"],
+                "context": [""]
+            },
+            {"tag": "Vektor3",
+                "patterns": ["Sebutkan contoh besaran yang termasuk besaran vektor!"],
+                "responses": ["kecepatan, momentum, kuat arus listrik"],
+                "context": [""]
+            },
+            {"tag": "Vektor4",
+                "patterns": ["Vektor a = 3 satuan, vektor b = 4 satuan dan a + b = 5 satuan, besar sudut yang diapit oleh vektor a dan b adalah"],
+                "responses": ["90°"],
+                "context": [""]
+            },
+            {"tag": "Vektor5",
+                "patterns": ["Dua buah gaya sama besar yaitu 10 N membentuk sudut 120O satu sama lain. Selisih kedua vektor tersebut adalah"],
+                "responses": ["10 N."],
+                "context": [""]
+            },
+            {"tag": "Vektor6",
+                "patterns": ["Vektor gaya F = 20√3 N membentuk sudut 600 dengan sumbu X. Ukuran komponen vektor pada sumbu Y adalah"],
+                "responses": ["30 N"],
+                "context": [""]
+            },
+            {"tag": "Angka Penting",
+                "patterns": ["Saat mengukur panjang objek, hasil pengukuran adalah 0,04070 meter. Hasil pengukuran mengandung sejumlah … angka penting"],
+                "responses": ["Empat"],
+                "context": [""]
+            },
+            {"tag": "Angka Penting1",
+                "patterns": ["Hasil pengukuran luas pelat tipis dengan panjang 1,25 cm dan lebar 0,15 cm sesuai aturan angka penting"],
+                "responses": ["0,187 cm²"],
+                "context": [""]
+            },
+            {"tag": "Angka Penting2",
+                "patterns": ["Ada berapa angka penting dari angka 1.000.020?"],
+                "responses": ["6 angka penting"],
+                "context": [""]
+            },
+            {"tag": "Angka Penting3",
+                "patterns": ["40.234 angka pentingnya berapa ?"],
+                "responses": ["5 angka penting"],
+                "context": [""]
+            },
+            {"tag": "Angka Penting4",
+                "patterns": ["Berapa jumlah angka penting dari angka 0,0000701?"],
+                "responses": ["3 angka penting"],
+                "context": [""]
+            },
+            {"tag": "GLB & GLBB",
+                "patterns": ["Sebuah benda bergerak dari titik A ke D dengan lintasan berbentuk persegi panjang. Jika AB = CD = 150m dan AD = BC = 100m serta waktu yang dibutuhkan 200s, maka kelajuan dan kecepatan benda berturut-turut adalah"],
+                "responses": ["2m/s dan 0,5m/s"],
+                "context": [""]
+            },
+            {"tag": "GLB & GLBB1",
+                "patterns": ["Adi berlari dengan kecepatan tetap 2m/s. Dari tempat yang sama, lima menit selanjutnya Kusno berlari menyusul Adi dengan kecepatan tetap 6m/s. Berapa waktu yang dibutuhkan Kusno menyusul Adi?"],
+                "responses": ["2,5 Menit"],
+                "context": [""]
+            },
+            {"tag": "GLB & GLBB2",
+                "patterns": [" Sebuah bola menggelinding ke bawah dari suatu bidang miring dengan percepatan tetap 3,4 m/s2. Jika bola bergerak dengan kecepatan awal 3 m/s, tentukan kecepatan bola setelah bergerak selama 5 detik!"],
+                "responses": ["v =    vo + a t =    3 + (3,4 . 5) =    20 m/s"],
+                "context": [""]
+            },
+            {"tag": "GLB & GLBB3",
+                "patterns": ["Sebuah sepeda motor bergerak dari keadaan diam dengan percepatan tetap 4 m/s2. Tentukan kecepatan dan jarak tempuh truk setelah 4 detik!"],
+                "responses": ["v = 16 m/s dan s = 32 m"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor",
+                "patterns": ["Ukuran panas dingin suatu zat disebut?"],
+                "responses": ["Suhu"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor1",
+                "patterns": ["Dalam sistem Internasional (SI), satuan untuk suhu adalah"],
+                "responses": ["Kelvin (K)"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor2",
+                "patterns": ["Titik didih air pada tekanan 1 atm sama dengan ... K"],
+                "responses": ["300"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor3",
+                "patterns": ["Jika kita berada di dekat api unggun maka kalor akan merambat dari api ke tubuh kita melalui proses..."],
+                "responses": ["Radiasi"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor4",
+                "patterns": ["Energi yg berpindah dari benda yg suhunya lebih tinggi ke benda yg suhunya lebih rendah ketika kedua benda bersentuhan disebut ?"],
+                "responses": ["Kalor"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor5",
+                "patterns": ["Panas sebesar 12 kj diberikan pada pada sepotong logam bermassa 2500 gram yang memiliki suhu 30°C. Jika kalor jenis logam adalah 0,2 kalori/gr°C, tentukan suhu akhir logam ?"],
+                "responses": ["35,71°C"],
+                "context": [""]
+            },
+            {"tag": "Suhu & Kalor6",
+                "patterns": ["Sepotong besi 500 gram memiliki suhu 310 K. Besi itu dibiarkan hingga mencapai suhu kamar sekitar 300 K. Kalor jenis besi 450 J/kg.K. Hitunglah kalor yang dilepaskan ?"],
+                "responses": ["besi itu melepaskan kalor sebesar 2.250 Joule"],
+                "context": [""]
+            },
+            {"tag": "Fisika Kelas 10",
+                "patterns": ["Pembangkit listrik tenaga uap menggunakan bahan bakar batu bara dan dapat menghasilkan 206.000.000 watt. Kinerja dalam notasi ilmiah adalah …"],
+                "responses": ["2.06 x 108 W"],
+                "context": [""]
+            },
+            {"tag": "Dimensi",
+                "patterns": ["Tekanan adalah gaya per satuan luas. Dimensi hasil cetak adalah"],
+                "responses": ["[ML-1T-2]"],
+                "context": [""]
+            },
+            {"tag": "Hukum Newton1",
+                "patterns": ["Apa bunyi hukum 1 newton?"],
+                "responses": ["Bunyi Hukum 1 Newton adalah (Jika resultan gaya yang bekerja pada benda yang sama dengan nol, maka benda yang mula-mula diam akan tetap diam. Benda yang mula-mula bergerak lurus beraturan akan tetap lurus beraturan dengan kecepatan tetap)."],
+                "context": [""]
+            },
+            {"tag": "Hukum Newton2",
+                "patterns": ["Apa bunyi hukum 2 newton?"],
+                "responses": ["Bunyi Hukum 2 Newton adalah (Percepatan (perubahan dari kecepatan) dari suatu benda akan sebanding dengan resultan gaya (jumlah gaya) yang bekerja pada benda tersebut dan berbanding terbalik dengan massa benda)."],
+                "context": [""]
+            },
+            {"tag": "Hukum Newton3",
+                "patterns": ["Apa bunyi hukum 3 newton?"],
+                "responses": ["Bunyi Hukum 3 Newton adalah (Setiap aksi akan menimbulkan reaksi, jika suatu benda memberikan gaya pada benda yang lain maka benda yang terkena gaya akan memberikan gaya yang besarnya sama dengan gaya yang diterima dari benda pertama, tetapi arahnya berlawanan)."],
+                "context": [""]
+            },
+            {"tag": "Gaya Coulomb",
+                "patterns": ["Apa itu Gaya Coulomb?"],
+                "responses": ["Gaya Coulomb (F) adalah gaya yang ditimbulkan oleh adanya interaksi antara dua muatan yang dipisahkan pada jarak tertentu."],
+                "context": [""]
+            },
+            {"tag": "Gaya Coulomb1",
+                "patterns": ["Rumus Gaya Coulomb adalah..."],
+                "responses": ["F = k . q1.q2/r2, di mana q1 adalah muatan 1 (C), q2 adalah muatan 2 (C), r adalah jarak kedua muatan, dan k adalah konstanta."],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika",
+                "patterns": ["siapa pememu mesin hitung?"],
+                "responses": ["Penemu mesin hitung adalah Blaise Pascal"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika1",
+                "patterns": ["siapa pememu hukum coulomb?"],
+                "responses": ["Penemu hukum coulomb adalah Charles-Augustin de coulomb"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika2",
+                "patterns": ["siapa pememu teori relativitas?"],
+                "responses": ["Penemu  teori relativitas adalah Albert Einstein"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika3",
+                "patterns": ["siapa pememu hukum Bernoulli?"],
+                "responses": ["Penemu hukum Bernoulli adalah Daniel Bernoulli"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika4",
+                "patterns": ["siapa pememu elektron?"],
+                "responses": ["Penemu elektron adalah Joseph John Thomson"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika5",
+                "patterns": ["siapa pememu  sistem kelistrikan arus bolak-balik (AC)?"],
+                "responses": ["Penemu  sistem kelistrikan arus bolak-balik (AC) adalah Nikola Tesla"],
+                "context": [""]
+            },
+            {"tag": "Ilmuwan Fisika6",
+                "patterns": ["siapa pememu Teori Heliosentrisme (Matahari sebagai pusat Tata Surya)?"],
+                "responses": ["Penemu Teori Heliosentrisme adalah Nicolaus Copernicus"],
+                "context": [""]
+            },
+            {"tag": "Salam",
+                "patterns": ["Haii", "Bagaimana kabar mu", "Apakah ada orang disana?","Hey","Hola", "Hello", "Good day"],
+                "responses": ["Hallo, terima kasih", "Senang bertemu dengan mu lagi"],
+                "context": [""]
+               },
+               {"tag": "Selamat Tinggal",
+                "patterns": ["Bye", "Samapi ketemu lagi"],
+                "responses": ["Samapi Jumpa!", "Selamat bersenang-senang"],
+                "context": [""]
+               },
+               {"tag": "terima kasih",
+                "patterns": ["Terima kasih", "Itu membantu"],
+                "responses": ["Saya senang bisa membantu"],
+                "context": [""]
+               },
+               {"tag": "math tambah",
+                       "patterns": ["1 + 4 ="],
+                        "responses": ["Loading hospital details"],
+                        "context": ["1 + 4"]
+                   },
+                   {"tag": "Mayth_invers",
+                    "patterns": ["Tentukan fungsi invers dari f(x) = 2x² + 5!"],
+                    "responses": ["jawabannya adalah f-1(x) = √[(x-5)/2]"],
+                    "context": [""]
+                   },
+                   {"tag": "math invers",
+                       "patterns": ["Tentukan fungsi invers dari g(x) = (2x – 1)/6"],
+                        "responses": ["g-1(x) = (6x+1)/2"],
+                        "context": ["1 + 4"]
+                   },
+                   {"tag": "Mayth_invers",
+                    "patterns": ["Tentukan fungsi invers dari h(x) = ³√x+2"],
+                    "responses": ["h-1(x) = (x+2)³"],
+                    "context": [""]
+                   },
+                   {"tag": "Ruang Lingkup Biologi 1",
+                       "patterns": ["Apa saja karakteristik Dasar pada makhluk Hidup?"],
+                       "responses": ["1.Disusun oleh sel. 2. Mengalami pertumbuhan dan perkembangan, 3. Melakukan proses metabolisme."],
+                       "context": [""]
+                   },
+                   {"tag": "Ruang Lingkup Biologi 2",
+                       "patterns": ["Sebutkan tingkatan pada struktur organisasi kehidupan?"],
+                       "responses": [" struktu organisasi kehidupan dalam berbagai tingkat dapat dijelaskan pada Molekul,sel,jaringan,organ,sistem Organ,populasi,komunitas,ekosistem,dan Bioma"],
+                       "context": [""]
+                   },
+                   {"tag": "Ruang Lingkup Biologi 3",
+                       "patterns": ["Sebutkan klarifikasi makhluk hidup ke dalam enam kingdom?"],
+                       "responses": ["1.Archaebacteria. 2.Eubacteria(Bakteri). 3.Protista 4.Fungi 5.Plantea 6.Animalia"],
+                       "context": [""]
+                   },
+                   {"tag": "Materi lengkap Ruang Lingkup 4",
+                       "patterns": ["Materi Pelajaran Tentang Ruang Lingkup?"],
+                       "responses": ["https://news.clearnotebooks.com/id/keren-rangkuman-biologi-kelas-10-semester-2/"],
+                       "context": [""]
+                   },
+                   {"tag":  "Virus 5",
+                       "patterns": ["Siapa penemu virus?"],
+                       "responses": ["Wendell Stanley yang mengkristalkan partikel mikroskopik yang menyerang tanaman tembakau yang kemudian diberi nama Tobacco Mosaic Virus(TMV)"],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 6",
+                       "patterns": ["Sebutkan ciri-Ciri Virus?"],
+                       "responses": ["1.Bersifat aseluler, 2.Berukuran 20-300 milimikron, 3.Memiliki salah satu macam asam nukleat RNA atau DNA,4. Berupa Kristal, 5.Bentuknya beragam, 6.Tersusun atas asam nukleat "],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 7",
+                       "patterns": ["Apa saja struktur tubuh virus?"],
+                       "responses": ["Struktur virus mempunyai selubung lipid,RNA,Enzim reverse transcriptase, dan selubang protein"],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 8",
+                       "patterns": ["Apa yang dimaksud dengan virus pemakan bakteri?"],
+                       "responses": ["Bakteriofag(fag) adalah virus pemakan bakteri yang ditemukan oleh frederick twort dan felix d'Herelle. Bakteriofag menyebabkan sel bakteri pecah."],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 9",
+                       "patterns": ["Sebutkan 2 perkembangan pada virus?"],
+                       "responses": ["ada 2 cara virus menginfeksi bakteri,yaitu secara litik dan lisogenik"],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 10 ",
+                       "patterns": ["Materi Lengkap Tentang Virus?"],
+                       "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/"],
+                       "context": [""]
+                   },
+                   {"tag": "Virus 11",
+                       "patterns": ["Materi Ringkasan pada virus?"],
+                       "responses": ["https://drive.google.com/file/d/1fVO-02vjVqiS4oFAHYJV06ilQxs5zERJ/view"],
+                       "context": [""]
+                   },
+                   {"tag": "Archaebacteria dan Eubacteria 12",
+                       "patterns": ["Sebutkan cara reproduksi pada Archaebacteria?"],
+                       "responses": ["Pembelahan biner,pembelahan berganda,pembentukan tunas,dan fragmentasi.Archaebacteria hidup pada habitat ekstrim,seperti sumbar air panas dan telaga garam."],
+                       "context": [""]
+                   },
+                   {"tag": "Archaebacteria dan Eubacteria 13",
+                       "patterns": ["Sebutkan 3 bagian pada Archaebacteria?"],
+                       "responses": ["1.Metanogen, 2.Halofix Ekstrim, 3.Termofil Exstrim"],
+                       "context": [""]
+                   },
+                   {"tag": "Archaebacteria dan Eubacteria 14",
+                       "patterns": ["Apa saja ciri-ciri pada Eubacteria(Bakteri)?"],
+                       "responses": ["1.Dinding sel tersusun atas mukopolisakarida dan peptidoglikan, 2.Sel bakteri dapat mensekresikan lendir ke permukaan dindingselnya, 3.Membran sitoplasma meliputi 8-10%, 4.Sitoplasma dikelilingi oleh membran sitoplasma, 5.Membentuk endospora untuk melindungi diri dari panas dan gangguan alam, 6.Ada yang bergerak dengan flagela dan ada yang tidak. "],
+                       "context": [""]
+                   },
+                   {"tag": "Archaebacteria dan Eubacteria 15",
+                       "patterns": ["Secara Umum bakteri bereproduksi secara?"],
+                       "responses": ["Bakteri bereproduksi secara aseksual dengan pembelahan biner"],
+                       "context": [""]
+                   },
+                   {"tag": "Archaebacteria dan Eubacteria 16",
+                       "patterns": ["Materi Ringkasan pada Archaebacteria dan Eubacteria?"],
+                       "responses": ["https://drive.google.com/file/d/1uwY-GxJUdjDivh6A0rNcJBlV3oecVSrX/view"],
+                       "context": [""]
+                   },
+                   {"tag": "Protista 17",
+                       "patterns": ["Secara Umum ciri-ciri protista?"],
+                       "responses": [" 1.Bersifat eukariotik,yaitu diselubungi oleh membran inti serta organel-organelnya dikelilingi membran. 2.Respirasi secara aerobotik. 3.Sebagian besar bersifat uniseluler. 4.Ada yang bereproduksi secara aseksual dan ada yang secara seksual. 5.Ada yang hidup bebas dan ada yang bersimbiosis. 6.Kebanyakan hidup diperairan."],
+                       "context": [""]
+                   },
+                   {"tag": "Protista 18",
+                       "patterns": ["Apa saja bagian dan ciri-ciri umum kingdom protista mirip jamur?"],
+                       "responses": ["1.Myxomycota(jamur lendir plasmodial,yang memiliki ciri-ciri:hanya memiliki beberapa sifat yang dimiliki jamur,struktur myxomycota disebut plasmodium,dan dapat mencerna mikroorganisme serta partikel bahan organik yang membusuk didalam selnya. 2.Oomycota(Jamur air) adalah memiliki ciri-ciri memiliki banyak kemiripan dengan jamur,bersifat heterotrofik,baik secara parasit maupun saprofit,dan memiliki dinding sel yang mengandung selulosa dan tidak mempunyai septa."],
+                       "context": [""]
+                   },
+                   {"tag": " Protista 19",
+                       "patterns": ["Secara Umum Alga bereproduksi secara?"],
+                       "responses": ["Alga bereproduksi secara seksual dan aseksual "],
+                       "context": [""]
+                   },
+                   {"tag": " Protista 20",
+                       "patterns": ["Materi lengkap tentang protista?"],
+                       "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                       "context": [""]
+                   },
+                   {"tag": "Jamur 21",
+                       "patterns": ["Jelaskan ciri-ciri umum pada jamur ?"],
+                       "responses": ["1.Merupakan organisme eukariotik yang menghasilkan spora,dindingselnya tidak mengandung selulosa,melainkan karbohidrat kompleks,dan tidak memiliki flagela dalam daur hidupnya.  "],
+                       "context": [""]
+                   },
+                   {"tag": " Jamur 22",
+                       "patterns": ["Sebutkan apa saja klarifikasi pada jamur?"],
+                       "responses": ["1.Zygomycota. 2.Ascomycota. 3.Basydiomycota. 4.Deuteromycota"],
+                       "context": [""]
+                   },
+                   {"tag": " Jamur 23",
+                       "patterns": ["Apa aja peran Zygomycota?"],
+                       "responses": ["Peran Zygomycota terbagi atas 2 yang 1.Rhizopus oryzae yang berperan untuk membuat tempe dan yang ke 2.Mucor javanicus berperan untuk membuat tape ketan. "],
+                       "context": [""]
+                   },
+                   {"tag": " Jamur 24",
+                       "patterns": ["Sebutkan apa saja ciri-ciri Deuteromycota?"],
+                       "responses": ["1.Disebut fungi imperfecti atau jamur tidak sempurna, 2.Belum diketahui reproduksi seksual selama siklus hidupnya, 3.Hanya hidup di darat. "],
+                       "context": [""]
+                   },
+                   {"tag": " Keanekaragaman Hayati 25",
+                       "patterns": ["Apa pegertian keanekaragamn hayati adalah?"],
+                       "responses": ["Keanekaragam hayati adalah keanekaragaman makhluk hidup yang memperlihatkan seluruh variasi gen,spesies dan ekosistem di suatu daerah. "],
+                       "context": [""]
+                   },
+                   {"tag": " Keanekaragaman Hayati 26",
+                       "patterns": ["Sebutkan apa saja tingkatan pada keanekaragaman hayati?"],
+                       "responses": ["Tingkat keanekaraman hayati ada 3 macam yaitu:1.keanekaragaman tingkat gen,2.Tingkat keanekaragaman jenis spesies, 3.Keanekaraman tingkat ekosistem. "],
+                       "context": [""]
+                   },
+                   {"tag": " Keanekaragaman Hayati 27",
+                       "patterns": ["Apa saja faktor-faktor yang mempengaruhi keanekaragaman tingkat ekosistem?"],
+                       "responses": [" iklim,air,tanah,udara,cahaya,kelembapan,dan suhu."],
+                       "context": [""]
+                   },
+                   {"tag": " Keanekaragaman Hayati 28",
+                       "patterns": ["Tujuan pada pengelompokkan pada keanekaragaman hayati?"],
+                       "responses": ["Tujuan pada pada pengelompokkan keanekaragaman hayati bertujuan untuk memberikan penjelasan mengenai ciri-ciri makhluk hidup agar setiap jenis dapat dikenali dengan mudah,Mengidentifikasi setiap ciri-ciri makhluk hidup agar dapat dikelompokkan sesuai dengan kategorinya,memberikan pengetahuan tentang hubungan kekerabatan antar makhluk hidup di dunia,dan mengetahui perkembangan evolusi setipa makhluk hidup berdasarkan hubungan kekerabatannya. "],
+                       "context": [""]
+                   },
+                   {"tag": " Keanekaragaman Hayati 29",
+                       "patterns": ["Materi Rangkuman lengkap pada keanekaraman Hayati?"],
+                       "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                       "context": [""]
+                   },
+                   {"tag": " Tumbuhan 30",
+                       "patterns": ["Apa pengertian dari tumbuhan?"],
+                       "responses": ["Tumbuhan adalah organisme eukariotik dari kerajaan biologis plantea yang bercirikan fotosintesis dan memiliki dinding sel yang kaku. "],
+                       "context": [""]
+                   },
+                   {"tag": " Tumbuhan 31",
+                       "patterns": ["Sebutkan ciri-ciri tumbuhan?"],
+                       "responses": ["1.Disusun dari sel eukariotik,2.Organisme yang memiliki banyak sel atau multi seluler,3.Memilki dinding sel dari selulosa,3.Memilki klorofil a dan b untuk fotosintesis,4.Menyimpan cadangan makanan berbentuk amilum atau zat tepung,dan 5.Sifatnya autotrof karena bisa membuat makanan sendiri. "],
+                       "context": [""]
+                   },
+                   {"tag": " Tumbuhan 31",
+                       "patterns": [" Struktur tumbuhan ada berapa?"],
+                       "responses": ["Struktur tumbuhan terdiri dari beberapa bagian yang berbeda.Tiga bagian utama tumbuhan meliput akar,daun dan batang.Dimana setiap bagian memilki serangkaian tugas dan fungsinya untuk menjaga kesehatan tanaman."],
+                       "context": [""]
+                   },
+                   {"tag": " Tumbuhan 32",
+                       "patterns": ["Sebutkan apa saja pengklasifikasikan pada tumbuhan?"],
+                       "responses": ["1.Lumut(Bryophytes, 2.Tumbuhan Paku, 3.Tumbuhan Biji. "],
+                       "context": [""]
+                   },
+                   {"tag": " Hewan 33",
+                       "patterns": ["Berdasarkan simetri tubuh hewan terbagi atas 2,maka jelaskan ke 2 simetris tersebut?"],
+                       "responses": ["Berdasarkan simetris tubuh hewan terbagi atas 2 yaitu 1.simetri radial yang tersusun atas vental,Dorsal,dan Bidang simetri. dan simetri bilateral "],
+                       "context": [""]
+                   },
+                   {"tag": " Hewan 34",
+                       "patterns": ["Jelaskan dasar-dasar pengelompokan dunia hewan?"],
+                       "responses": ["Pengelompokkan hewan terbesar adalah berdasarkan ada/tidaknya tulang belakang,yaitu vertebrata dan avertebrata.Lalu ada juga pengelompokkannya pada 1. Porifera 2.Coelenterata adalah filum ctenophora dan chidaria dikelompokkan sebagai coelenterata. 3.Plathyhelminthes  "],
+                       "context": [""]
+                   },
+                   {"tag": " Hewan 35",
+                       "patterns": ["Jelaskan tujuh peranan pada hewan?"],
+                       "responses": ["1.Peranan filum porifera contohnya pada spon,2.Peranan filum cnidaria contohnya pada ubur-ubur,dan anemon laut, 3.Peranan filum annelida contohnya pada cacing, 4.Peranan filum moluska, 5.Peranan filum Echinodermata contohnya pada landak laut, 6.Peranan filum Arthropoda contohnya kupu-kupu dan lalat buah, 7.Peranan filum chordata contohnya pada ayam,kambing,domba,dan hiu termasuk ke dalam filum chordata."],
+                       "context": [""]
+                   },
+                   {"tag": " Ekosistem 36",
+                       "patterns": ["Apa pengertian Ekosistem?"], 
+                       "responses": ["Ekosistem adalah suatu sistem lingkungan yang terbentuk oleh hubungan timbal balik antara makhluk hidup dengan lingkungannya. "],
+                       "context": [""]
+                   },
+                   {"tag": " Ekosistem 37",
+                       "patterns": ["Ilmu yang mempelajari ekosistem adalah?"],
+                       "responses": ["Ekologi.Dimana Ekologi berasal dari kata oikos(rumah atau tempat hidup) dan logos (ilmu)"],
+                       "context": [""]
+                   },
+                   {"tag": " Ekosistem 38",
+                       "patterns": ["Sebutkan Simbiosis anatar-komponen ekosistem?"],
+                       "responses": ["1.Simbiosis mutualisme, 2.Simbiosis Komensalisme, 3.Simbiosis parasitisme"],
+                       "context": [""]
+                   },
+                   {"tag": " Ekosistem 39",
+                       "patterns": ["Sebutkan 10 ekosistem buatan yang ada disekitar ?"],
+                       "responses": [" 1.Waduk atau bandungan, 2.Tambak, 3.Sawah, 4.Tanam kota, 5.Saluran irigasi, 6.perkebunan, 7.kolam ikan, 8.pemukiman atau perumahan, 9.kebun binatang, 10.peternakan."],
+                       "context": [""]
+                   },
+                   {"tag": " Ekosistem 40",
+                       "patterns": ["Materi Lengkap pada materi biologi kelas 10?"],
+                       "responses": ["https://kampusimpian.com/ppt-rangkuman-lengkap-materi-biologi-sma-kelas-x-ipa-ips/ "],
+                       "context": [""]
+                   }
+            
+             
+   ]
+}
+      
